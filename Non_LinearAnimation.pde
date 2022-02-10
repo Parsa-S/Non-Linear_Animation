@@ -1,7 +1,7 @@
 // Non-Linear Animation
 // Non-linear Animation with math and normallized time
 // 02/09/2022
-// https://github.com/Parsa-S/SchoolWork/blob/main/ElectronicFantasy.pde 
+// https://github.com/Parsa-S/Non-Linear_Animation/edit/main/Non_LinearAnimation.pde
 
 float start, end, i, j, k, l, m, n, o, p;
 
@@ -22,8 +22,6 @@ void draw() {
   n = cos(k * (PI / 2) + PI) + 1;  
   o = (cos(k * 2 * PI + PI) + 1) / 2;
   p = abs(sin(k * PI));  
-
-
 
   // Lines
   strokeWeight(2);
