@@ -3,6 +3,7 @@
 // 02/09/2022
 // https://github.com/Parsa-S/Non-Linear_Animation/edit/main/Non_LinearAnimation.pde
 
+
 float start, end, i, j, k, l, m, n, o, p;
 
 void setup() {
@@ -40,4 +41,19 @@ void draw() {
   ellipse(n * width, height / 8 * 5, 10, 10);
   ellipse(o * width, height / 8 * 6, 10, 10);
   ellipse(p * width, height / 8 * 7, 10, 10);
+  
+  fill(69, 115, 131);
+  stroke(69, 115, 131);
+  textSize(50);
+  text("NON-LINEAR ANIMATION", width / 4, 100);
+  
+  fill(200);
+  stroke(200);
+  textSize(20);
+  text("t", 20, height / 8 * 2 - 10);
+  text("abs(cos(t*2PI)-1)/2", 20, height / 8 * 3 - 10);
+  text("(cos(t*PI+PI)+1)/2", 20, height / 8 * 4 - 10);
+  text("sin(t*(PI/2))", 20, height / 8 * 5 - 10);
+  text("cos(t*(PI/2)+PI)+1", 20, height / 8 * 6 - 10);
+  text("abs(sin(t*PI))", 20, height / 8 * 7 - 10);
 }
