@@ -1,7 +1,7 @@
 // Non-Linear Animation
 // Non-linear Animation with math and normallized time
 // 02/09/2022
-// https://github.com/Parsa-S/Non-Linear_Animation/edit/main/Non_LinearAnimation.pde
+// https://github.com/Parsa-S/Non-Linear_Animation/main/Non_LinearAnimation.pde
 
 
 float start, end, i, j, k, l, m, n, o, p;
